@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Japanese Word Cards</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link type="text/css" href="style.css" rel="stylesheet">
+    <link type="text/css" href="outdatedbrowser/outdatedbrowser.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="outer">
+        <header>
+            <div class="header-content">
+                <div id="menuButton"></div>
+                <div id="langSwitch"><span id="rus" class="inactive_lang">RUS</span> | <span id="eng">ENG</span></div>
+                <p>JAPANESE WORD CARDS</p>
+            </div>
+        </header>
+        <div class="middle">
+            <div class="inner">
+                <div id="startButton" class="largeText deactive">START</div>
+                <div id="wordToTranslate" class="largeText"></div>
+                <div id="deck">
+                    <div class="row">
+                        <div class="card japanese inactive"></div>
+                        <div class="card japanese inactive"></div>
+                    </div>
+                    <div class="row">
+                        <div class="card japanese inactive"></div>
+                        <div class="card japanese inactive"></div>
+                    </div>
+                </div>
+                <div id="progressBar" class="hidden">
+                    <div id="progress">0%</div>
+                </div>
+                <div id="helpStepTwo" class="helpMsg">Add atleast 4 words
+                    <br>and press Start</div>
+            </div>
+            <div id="helpStepOne" class="helpMsg">Open menu and
+                <br>add few words</div>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <div id="copyright">© 2014 <a href="mailto:qppazaro@gmail.com">Alexander Ivanyuta</a></div>
+            </div>
+        </footer>
+
+        <div id="menu" class="hidden">
+            <div id="addFileMenuBlock" class="menuBlock">
+                <div class="cf">
+                    <div class="menuItemText">IMPORT</div>
+                    <div class="helpButton" id="addCSVHelpButton"></div>
+                    <input type="file" id="customFileInput">
+                </div>
+                <div id="fileNameOutput">file is not selected</div>
+                <div class="menuBlockButton deactive" id="addCSVButton"><img src="img/addFileButtonIcon.png" alt="add file icon">ADD</div>
+            </div>
+            <div id="preloadedDictsMenuBlock" class="menuBlock">
+                <div class="menuItemText">PRELOADED DICTIONARIES</div>
+                <div id="shamovPreloadedDict">Words from <a href="http://lifeinjapan.ru/index.php/yaponskij-yazyk/o-kursakh-yaponskogo-yazyka.html" target="_blank">Life in Japan</a> Homeworks</div>
+                <div id="shamovCheckBoxContainer"></div>
+            </div>
+            <div id="addWordMenuBlock" class="menuBlock">
+                <div class="helpButton" id="addWordHelpButton"></div>
+                <div class="menuItemText">ADD A WORD</div>
+                <input id="addWordOriginal" type="text" class="addWordInput" placeholder="In English">
+                <input id="addWordTranslation" type="text" class="addWordInput" placeholder="In Japanese">
+                <div class="menuBlockButton" id="addWordButton"><img src="img/addFileButtonIcon.png" alt="add waord icon">ADD</div>
+            </div>
+            <div id="dictControlMenuBlock" class="menuBlock">
+                <div class="menuBlockButton deactive" id="seeDictButton"><img src="img/seeDictButtonIcon.png" alt="see dictionary icon">SEE DICTIONARY</div>
+                <div class="menuBlockButton deactive" id="clearDictButton"><img src="img/clearDictButtonIcon.png" alt="clear dictionary icon">CLEAR DICTIONARY</div>
+                <div id="dictControlText" class="counter"><b class="numOfWords">0</b> word<span class="plural">s</span> in the dictionary.</div>
+            </div>
+            <div id="swapWordsMenuBlock" class="menuBlock lastBlock">
+                <div id="swapWordsText">Word to translate in <span id="wordLangSwapText">English</span>,
+                    <br>cards in <span id="cardsLangSwapText">Japanese</span>.</div>
+                <div id="swapLangsButton" class="menuBlockButton"><img src="img/swapButtonIcon.png" alt="swap languages icon">SWAP</div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="popup hidden" id="dictPopup">
+        <div class="middle">
+            <div id="dictPopupInner" class="popupInner">
+                <div id="dictHeader">
+                    <div id="dictPopupCloseButton" class="popupCloseButton"><img src="img/popupCloseIcon.png" alt="close button"></div>
+                    <img src="img/dictPopupIcon.png" alt="dict header image" id="dictHeaderImg">
+                    <span id="dictHeaderTitle">DICTIONARY</span>
+                    <span id="dictHeaderNumOfWords" class="counter"><span class="numOfWords">0</span> word<span class="plural">s</span></span>
+                </div>
+                <div id="dictPopupContent" class="dictContent"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup hidden" id="gameOverPopup">
+        <div class="middle">
+            <div id="gameOverPopupInner" class="popupInner">
+                <div id="gameOverPopupCloseButton" class="popupCloseButton"><img src="img/popupCloseIcon.png" alt="close button"></div>
+                <div id="gameOverPopupHeader">
+                    <img id="gameOverIcon" src="img/gameOverIcon.png" alt="congratulations">
+                    <div id="gameOverHeaderText">WELL DONE!</div>
+                </div>
+                <div class="gameOverText" id="gameOverTextMain">Your score is <span id="score">0%</span></div>
+                <div class="gameOverText" id="gameOverTextWrong">Words to repeat:</div>
+                <div id="gameOverPopupContent" class="dictContent"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="outdated"></div>
+    <script type="text/javascript" src="outdatedbrowser/outdatedbrowser.min.js"></script>
+    <script>
+        //event listener: DOM ready
+        function addLoadEvent(func) {
+            var oldonload = window.onload;
+            if (typeof window.onload != 'function') {
+                window.onload = func;
+            } else {
+                window.onload = function () {
+                    if (oldonload) {
+                        oldonload();
+                    }
+                    func();
+                }
+            }
+        }
+        //call plugin function after DOM ready
+        addLoadEvent(function () {
+            outdatedBrowser({
+                bgColor: '#f25648',
+                color: '#ffffff',
+                lowerThan: 'transform',
+                languagePath: 'outdatedbrowser/lang/en.html'
+            });
+        });
+    </script>
+
+    <script type="text/javascript" src="js/wanakana.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/lessons.js"></script>
+</body>
+</html>
