@@ -72,16 +72,20 @@ LESSONS[5] = [	pair({ word: 'пульт', translation: 'リモコン'}), pair({ 
 				pair({ word: 'колонки', translation: 'スピーカー'}), pair({ word: 'кость', translation: 'ほね'})];
 
 
-LESSONS[6] = [	pair({ word: 'цифра', translation: 'すうじ'}),
-                pair({ word: 'эпоха', translation: 'じだい'}),
-                pair({ word: 'ветер', translation: 'かぜ'}),
-                pair({ word: 'правильный ответ', translation: 'ただしい こたえ'}),
-                pair({ word: '(мой) дом', translation: 'うち'}),
-                pair({ word: 'поклон', translation: 'おじぎ'}),
-                pair({ word: 'абсолютный', translation: 'ぜったい'}),
-                pair({ word: 'прекрасный', translation: 'うつくしい'}),
-                pair({ word: 'слон', translation: 'ぞう'}),
-                pair({ word: 'красивый', translation: 'すてき'}),
-                pair({ word: 'люблю', translation: 'すき'}),
-                pair({ word: 'длинный', translation: 'ながい'}),
-                pair({ word: 'дневник', translation: 'にっき'})];
+LESSONS[6] = [	pair({ word: 'цифра', translation: 'すうじ'}), pair({ word: 'эпоха', translation: 'じだい'}),
+                pair({ word: 'ветер', translation: 'かぜ'}), pair({ word: 'правильный ответ', translation: 'ただしい こたえ'}),
+                pair({ word: '(мой) дом', translation: 'うち'}), pair({ word: 'поклон', translation: 'おじぎ'}),
+                pair({ word: 'абсолютный', translation: 'ぜったい'}), pair({ word: 'прекрасный', translation: 'うつくしい'}),
+                pair({ word: 'слон', translation: 'ぞう'}), pair({ word: 'красивый', translation: 'すてき'}),
+                pair({ word: 'люблю', translation: 'すき'}), pair({ word: 'длинный', translation: 'ながい'}),
+                pair({ word: 'дневник', translation: 'にっき'}), pair({ word: 'собака', translation: 'いぬ'}),
+                pair({ word: 'кот', translation: 'ねこ'}), pair({ word: 'горло', translation: 'のど'}),
+                pair({ word: 'мама', translation: 'はは'}), pair({ word: 'цветок', translation: 'はな'}),
+                pair({ word: 'человек', translation: 'ひと'}), pair({ word: 'супруги', translation: 'ふうふ'}),
+                pair({ word: 'одежда', translation: 'ふく'}), pair({ word: 'змея', translation: 'へび'}),
+                pair({ word: 'звезда', translation: 'ほし'}), pair({ word: 'наказание', translation: 'ばつ'}),
+                pair({ word: 'цена', translation: 'ぶっか'}), pair({ word: 'стена', translation: 'かべ'}),
+                pair({ word: 'родители', translation: 'ふぼ'}), pair({ word: 'кислый', translation: 'すっぱい'}),
+                pair({ word: 'публикация', translation: 'はっぷ'}), pair({ word: 'сильно проголодаться', translation: 'ぺこぺこ'}),
+                pair({ word: 'малюсенький', translation: 'ちっぽけな'}), pair({ word: 'лето', translation: 'なつ'}),
+                pair({ word: 'здесь', translation: 'ここ'}), pair({ word: 'жаркий', translation: 'あつい'})];
