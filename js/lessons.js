@@ -89,3 +89,15 @@ LESSONS[6] = [	pair({ word: 'цифра', translation: 'すうじ'}), pair({ wor
                 pair({ word: 'публикация', translation: 'はっぷ'}), pair({ word: 'сильно проголодаться', translation: 'ぺこぺこ'}),
                 pair({ word: 'малюсенький', translation: 'ちっぽけな'}), pair({ word: 'лето', translation: 'なつ'}),
                 pair({ word: 'здесь', translation: 'ここ'}), pair({ word: 'жаркий', translation: 'あつい'})];
+
+LESSONS[7] = [	pair({ word: 'строгий', translation: 'きびしい'}), pair({ word: 'мало', translation: 'すくない'}),
+                pair({ word: 'низкий', translation: 'ひくい'}), pair({ word: 'город', translation: 'まち'}),
+                pair({ word: 'путь', translation: 'みち'}), pair({ word: 'холодный', translation: 'さむい'}),
+                pair({ word: 'очки', translation: 'めがね'}), pair({ word: 'алые листья', translation: 'もみじ'}),
+                pair({ word: 'снег', translation: 'ゆき'}), pair({ word: 'сильный', translation: 'つよい'}),
+                pair({ word: 'хороший', translation: 'よい'}), pair({ word: 'роскошный', translation: 'りっぱな'}),
+                pair({ word: 'светлый', translation: 'あかるい'}), pair({ word: 'чистый', translation: 'きれいな'}),
+                pair({ word: 'интересный', translation: 'おもしろい'}), pair({ word: 'газета', translation: 'しんぶん'}),
+                pair({ word: 'присоединяться', translation: 'かにゅう'}), pair({ word: 'подстрекательства', translation: 'かんゆう'}),
+                pair({ word: 'книга', translation: 'ほん'}), pair({ word: 'весна', translation: 'はる'}),
+                pair({ word: 'спокойной ночи', translation: 'おやすみなさい'})];
