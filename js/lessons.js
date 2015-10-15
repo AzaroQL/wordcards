@@ -71,8 +71,26 @@ LESSONS[5] = [	pair({ word: 'пульт', translation: 'リモコン'}), pair({ 
 				pair({ word: 'фотоаппарат', translation: 'カメラ'}), pair({ word: 'здание', translation: 'たてもの'}),
 				pair({ word: 'колонки', translation: 'スピーカー'}), pair({ word: 'кость', translation: 'ほね'})];
 
-
-LESSONS[6] = [	pair({ word: 'цифра', translation: 'すうじ'}), pair({ word: 'эпоха', translation: 'じだい'}),
+//Offline Lesson 1
+LESSONS[6] = [	pair({ word: 'голубой', translation: 'あおい'}), pair({ word: 'лицо', translation: 'かお'}),
+                pair({ word: 'голос', translation: 'こえ'}), pair({ word: 'дом', translation: 'いえ'}),
+                pair({ word: 'воздух', translation: 'くうき'}), pair({ word: 'хризантема', translation: 'きく'}),
+                pair({ word: 'красный', translation: 'あかい'}), pair({ word: 'любовь', translation: 'あい'}),
+                pair({ word: 'много', translation: 'おおい'}), pair({ word: 'семья', translation: 'かぞく'}),
+                pair({ word: 'вкус', translation: 'あじ'}), pair({ word: 'самочувствие', translation: 'ぐあい'}),
+                pair({ word: 'наконец то', translation: 'あげく'}), pair({ word: 'продолжать', translation: 'つづく'}),
+                pair({ word: 'школа', translation: 'がっこう'}), pair({ word: 'журнал', translation: 'ざっし'}),
+                pair({ word: 'высокий', translation: 'たかい'}), pair({ word: 'маленький', translation: 'ちいさい'}),
+                pair({ word: 'карта (географическая)', translation: 'ちず'}), pair({ word: 'университет', translation: 'だいがく'}),
+                pair({ word: 'колокольчик', translation: 'すず'}), pair({ word: 'вкусный', translation: 'おいしい'}),
+                pair({ word: 'тихий', translation: 'しずか'}), pair({ word: 'мелкая', translation: 'あさい'}),
+                pair({ word: 'сомнение', translation: 'うたがい'}), pair({ word: 'старшая школа', translation: 'こうこう'}),
+                pair({ word: 'осень', translation: 'あき'}), pair({ word: 'станция', translation: 'えき'}),
+                pair({ word: 'ученик', translation: 'せいとう'}), pair({ word: 'большой', translation: 'おおきい'}),
+                pair({ word: 'писать', translation: 'かく'}), pair({ word: 'аэропорт', translation: 'くうこう'}),
+                pair({ word: 'ключи', translation: 'かぎ'})];
+//Offline Lesson 2
+LESSONS[7] = [	pair({ word: 'цифра', translation: 'すうじ'}), pair({ word: 'эпоха', translation: 'じだい'}),
                 pair({ word: 'ветер', translation: 'かぜ'}), pair({ word: 'правильный ответ', translation: 'ただしい こたえ'}),
                 pair({ word: '(мой) дом', translation: 'うち'}), pair({ word: 'поклон', translation: 'おじぎ'}),
                 pair({ word: 'абсолютный', translation: 'ぜったい'}), pair({ word: 'прекрасный', translation: 'うつくしい'}),
@@ -89,8 +107,8 @@ LESSONS[6] = [	pair({ word: 'цифра', translation: 'すうじ'}), pair({ wor
                 pair({ word: 'публикация', translation: 'はっぷ'}), pair({ word: 'сильно проголодаться', translation: 'ぺこぺこ'}),
                 pair({ word: 'малюсенький', translation: 'ちっぽけな'}), pair({ word: 'лето', translation: 'なつ'}),
                 pair({ word: 'здесь', translation: 'ここ'}), pair({ word: 'жаркий', translation: 'あつい'})];
-
-LESSONS[7] = [	pair({ word: 'строгий', translation: 'きびしい'}), pair({ word: 'мало', translation: 'すくない'}),
+//Offline Lesson 3
+LESSONS[8] = [	pair({ word: 'строгий', translation: 'きびしい'}), pair({ word: 'мало', translation: 'すくない'}),
                 pair({ word: 'низкий', translation: 'ひくい'}), pair({ word: 'город', translation: 'まち'}),
                 pair({ word: 'путь', translation: 'みち'}), pair({ word: 'холодный', translation: 'さむい'}),
                 pair({ word: 'очки', translation: 'めがね'}), pair({ word: 'алые листья', translation: 'もみじ'}),
