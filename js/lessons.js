@@ -119,3 +119,19 @@ LESSONS[8] = [	pair({ word: 'строгий', translation: 'きびしい'}), pai
                 pair({ word: 'присоединяться', translation: 'かにゅう'}), pair({ word: 'подстрекательства', translation: 'かんゆう'}),
                 pair({ word: 'книга', translation: 'ほん'}), pair({ word: 'весна', translation: 'はる'}),
                 pair({ word: 'спокойной ночи', translation: 'おやすみなさい'})];
+//Offline Minna Lesson 1-3
+LESSONS[8] = [	pair({ word: 'он/она', translation: 'あのひと'}), pair({ word: 'учитель', translation: 'きょうし'}),
+                pair({ word: 'служащий фирмы', translation: 'かいしゃいん'}), pair({ word: 'служащий банка', translation: 'ぎんこういん'}),
+                pair({ word: 'врач', translation: 'いしゃ'}), pair({ word: 'исследователь', translation: 'けんきゅうしゃ'}),
+                pair({ word: 'словарь', translation: 'じしょ'}), pair({ word: 'газета', translation: 'しんぶん'}),
+                pair({ word: 'записная книжка', translation: 'てちょう'}), pair({ word: 'визитная карточка', translation: 'めいし'}),
+                pair({ word: 'стол', translation: 'つくえ'}), pair({ word: 'стул', translation: 'いす'}),
+                pair({ word: 'подарок', translation: 'おみやげ'}), pair({ word: 'английский язык', translation: 'えいご'}),
+                pair({ word: 'прилавок, отдел', translation: 'うりば'}), pair({ word: 'подвальный этаж', translation: 'ちか'}),
+                pair({ word: 'аудитория', translation: 'きょうしつ'}), pair({ word: 'столовая', translation: 'しょくどう'}),
+                pair({ word: 'офис', translation: 'じむしょ'}), pair({ word: 'зал заседаний', translation: 'かいぎしつ'}),
+                pair({ word: 'ресепшен', translation: 'うけつけ'}), pair({ word: 'холл', translation: 'ロビー'}),
+                pair({ word: 'комната', translation: 'へや'}), pair({ word: 'туалет', translation: 'おてあらい'}),
+                pair({ word: 'лестница', translation: 'かいだん'}), pair({ word: 'автомат по продаже', translation: 'じどうはんばいき'}),
+                pair({ word: 'обувь', translation: 'くつ'}), pair({ word: 'дом', translation: 'うち'})];
+
