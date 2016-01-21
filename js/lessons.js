@@ -135,7 +135,7 @@ LESSONS[8] = [	pair({ word: 'он/она', translation: 'あのひと'}), pair({
                 pair({ word: 'лестница', translation: 'かいだん'}), pair({ word: 'автомат по продаже', translation: 'じどうはんばいき'}),
                 pair({ word: 'обувь', translation: 'くつ'}), pair({ word: 'дом', translation: 'うち'})];
 //Offline Minna Lesson 8
-LESSONS[9] = [	pair({ word: 'красивый(о мужчине)', translation: 'ハンサム'}), pair({ word: 'красивый, тихий ', translation: 'きれい[な]'}),
+LESSONS[9] = [	pair({ word: 'красивый(о мужчине)', translation: 'ハンサム'}), pair({ word: 'красивый, чистый', translation: 'きれい[な]'}),
                 pair({ word: 'тихий, спокойный', translation: 'しずか[な]'}), pair({ word: 'оживленный, шумный', translation: 'にぎやか[な]'}),
                 pair({ word: 'знаменитый', translation: 'ゆうめい[な]'}), pair({ word: 'добрый', translation: 'しんせつ[な]'}),
                 pair({ word: 'здоровый, бодрый', translation: 'げんき[な]'}), pair({ word: 'свободный (о времени)', translation: 'ひま[な]'}),
