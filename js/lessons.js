@@ -134,4 +134,24 @@ LESSONS[8] = [	pair({ word: 'он/она', translation: 'あのひと'}), pair({
                 pair({ word: 'комната', translation: 'へや'}), pair({ word: 'туалет', translation: 'おてあらい'}),
                 pair({ word: 'лестница', translation: 'かいだん'}), pair({ word: 'автомат по продаже', translation: 'じどうはんばいき'}),
                 pair({ word: 'обувь', translation: 'くつ'}), pair({ word: 'дом', translation: 'うち'})];
-
+//Offline Minna Lesson 8
+LESSONS[9] = [	pair({ word: 'красивый(о мужчине)', translation: 'ハンサム'}), pair({ word: 'красивый, тихий ', translation: 'きれい[な]'}),
+                pair({ word: 'тихий, спокойный', translation: 'しずか[な]'}), pair({ word: 'оживленный, шумный', translation: 'にぎやか[な]'}),
+                pair({ word: 'знаменитый', translation: 'ゆうめい[な]'}), pair({ word: 'добрый', translation: 'しんせつ[な]'}),
+                pair({ word: 'здоровый, бодрый', translation: 'げんき[な]'}), pair({ word: 'свободный (о времени)', translation: 'ひま[な]'}),
+                pair({ word: 'удобный', translation: 'べんり[な]'}), pair({ word: 'красивый, изящный', translation: 'すてき[な]'}),
+                pair({ word: 'большой', translation: 'おおきい'}), pair({ word: 'маленький', translation: 'ちいさい'}),
+                pair({ word: 'новый', translation: 'あたらしい'}), pair({ word: 'старый', translation: 'ふるい'}),
+                pair({ word: 'хороший', translation: 'いい (よい)'}), pair({ word: 'плохой', translation: 'わるい'}),
+                pair({ word: 'жаркий', translation: 'あつい'}), pair({ word: 'холодный', translation: 'さむい'}),
+                pair({ word: 'прохладный', translation: 'つめたい'}), pair({ word: 'сложный', translation: 'むずかしい'}),
+                pair({ word: 'легкий', translation: 'やさしい'}), pair({ word: 'высокий, дорогой', translation: 'たかい'}),
+                pair({ word: 'дешевый', translation: 'やすい'}), pair({ word: 'низкий', translation: 'ひくい'}),
+                pair({ word: 'интересный', translation: 'おもしろい'}), pair({ word: 'вкусный', translation: 'おいしい'}),
+                pair({ word: 'занятый', translation: 'いそがしい'}), pair({ word: 'радостный', translation: 'たのしい'}),
+                pair({ word: 'белый', translation: 'しろい'}), pair({ word: 'черный', translation: 'くろい'}),
+                pair({ word: 'красный', translation: 'あかい'}), pair({ word: 'синий', translation: 'あおい'}),
+                pair({ word: 'город', translation: 'まち'}), pair({ word: 'продукты', translation: 'たべもの'}),
+                pair({ word: 'место', translation: 'ところ'}), pair({ word: 'общежитие', translation: 'りょう'}),
+                pair({ word: 'ресторан', translation: 'レストラン'}), pair({ word: 'жизнь, быт', translation: 'せいかつ'}),
+                pair({ word: 'работа', translation: '[お]しごと'})];
